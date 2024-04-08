@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function num(a, b, c, d) {
+            console.log("A :", a);
+            console.log("B :", b);
+            console.log("C :", c);
+            console.log("D :", d);
+
+            if (a > b && a > c && a > d) {
+                console.log("A is Greatest");
+            }
+            else if (b > c && b > a && b > d) {
+                console.log("B is Greatest");
+            }
+            else if (c > a && c > b && c > d) {
+                console.log("C is Greatest");
+            }
+            else {
+                console.log("D is Greatest");
+            }
+        }
+        num(7, 98, 23, 5); 
+    </script>
+</body>
+
+</html>
